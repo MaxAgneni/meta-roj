@@ -1,12 +1,12 @@
-# ROJ
+# North Invent Wave
 
-DESCRIPTION = "kernel for roj imx6q smarc platform"
+DESCRIPTION = "kernel for North Invent Wave platform"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 PRINC := "${@int(PRINC) + 2}"
 
-SRC_URI_append_mx6qroj = " \
+SRC_URI_append_mx6qwave = " \
    file://000-roj-dts.patch \
    file://001-ltc3676.patch \
    file://002-hdmi-patches.patch \
