@@ -1,4 +1,4 @@
-# Provides the i.MX6 ROJ SD common settings
+# Provides the i.MX6 NI wavw evolution common settings
 
 require conf/machine/include/imx-base.inc
 require conf/machine/include/tune-cortexa9.inc
